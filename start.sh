@@ -24,4 +24,4 @@ if nc -z 127.0.0.1 5432; then
     exit 1
 fi
 
-asciinema rec -c "./gas.sh $*"
+asciinema rec -c "./gas.sh"
